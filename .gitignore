@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+myenv/
+venv/
+ENV/
+env/
+*.egg-info/
+dist/
+build/
+
+# Model weights (large files - DO NOT COMMIT)
+*.pth
+*.pt
+*.onnx
+*.weights
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Frontend
+car_damage_frontend/node_modules/
+car_damage_frontend/dist/
+car_damage_frontend/build/
+car_damage_frontend/.vite/
+car_damage_frontend/.env
+car_damage_frontend/.env.local
+car_damage_frontend/.env.production
+car_damage_frontend/package-lock.json
+
+# Training outputs (large folders)
+runs/
+
+# Large image files
+confusion_matrix.png
+roc_*.png
+*.csv
+
+# Documentation setup file (not needed in repo)
+DOCUMENTATION_SETUP.md
