@@ -146,7 +146,7 @@ AUTOXPERT combines two main features:
 ### Step 1: Download the Project
 
 ```bash
-git clone https://github.com/yourusername/autoxpert.git
+git clone https://github.com/llsandeep01ll/AutoXpert.git
 cd autoxpert
 ```
 
@@ -210,3 +210,4 @@ Open that link in your browser.
 ## Author
 
 Sandeep N V
+
